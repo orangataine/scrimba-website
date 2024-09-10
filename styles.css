@@ -55,7 +55,7 @@ h2 {
 }
 
 #section-two-heading {
-    font-size: 24px;
+    font-size: 2rem;
     color: #CAD2C5;
     margin-top: 60px;
 }
@@ -71,7 +71,8 @@ h2 {
     max-width: 70%;
     border: 2px solid #CAD2C5;
     margin: auto;
-    color: #CAD2C5;
+    color: #354F52;
+    background-color: #CAD2C5;
     border-radius: 10px;
 }
 
@@ -88,7 +89,6 @@ h2 {
     object-fit: cover;
     max-width: 100px;
     height: 100px;
-    margin-top: 10px;
     border: 3px solid #CAD2C5;
 }
 
@@ -97,11 +97,10 @@ h2 {
     flex-direction: column-reverse;
     justify-content: center;
     margin-top: 100px;
-    width: 380px;
+    max-width: 380px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
-
 }
 
 .contact-me {
@@ -112,19 +111,19 @@ h2 {
     font-weight: 600;
     border: 2px solid #CAD2C5;
     transition: background-color 0.3s ease;
-}
+    margin-top: 20px;}
 
 .contact-me:hover {
     background-color: #CAD2C5;
     color: #354F52;
 }
 
-
 .guide {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #CAD2C5;
+    border-radius: 10px;
 }
 
 .about-me {
